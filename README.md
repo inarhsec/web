@@ -1,41 +1,74 @@
-# Website
+# Federico Tartarini's Personal Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 2](https://docusaurus.io/).
 
-## Installation
+## 🛠️ Installation
+
+Clone the repository and install dependencies:
 
 ```bash
-yarn
+git clone https://github.com/FedericoTartarini/FedericoTartarini.github.io.git
+cd FedericoTartarini.github.io
+yarn install
 ```
 
-## Local Development
+## 💻 Local Development
+
+Start the local development server:
 
 ```bash
 yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This will open the site in your browser. Most changes are reflected live without restarting the server.
 
-## Build
+## 🏗️ Build
+
+Generate static content for production:
 
 ```bash
 yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+The output will be in the `build` directory and can be served by any static hosting service.
 
-## Deployment
+## 🚢 Deployment
 
-Using SSH:
+Deployment to GitHub Pages is automated using **GitHub Actions**.  
+Every push to the `master` branch triggers a workflow that builds and deploys the site.
+
+You can also deploy manually:
+
+### Using SSH
 
 ```bash
 USE_SSH=true yarn deploy
 ```
 
-Not using SSH:
+### Not using SSH
 
 ```bash
 GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This command builds the site and pushes the output to the `gh-pages` branch.
+
+## ⚙️ Continuous Deployment
+
+- The workflow file is located at `.github/workflows/deploy.yml`
+- It uses [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) for publishing
+- The deployment is triggered automatically on every push to `master`
+
+## 📚 Documentation
+
+- See the [Docusaurus documentation](https://docusaurus.io/docs) for advanced configuration and usage.
+- Project-specific docs are in the `docs/` folder.
+
+## 📝 Contributing
+
+Pull requests are welcome!  
+Please follow the project conventions and guidelines described in the documentation.
+
+## 📄 License
+
+This project is licensed under the MIT License.

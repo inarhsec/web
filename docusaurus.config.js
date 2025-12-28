@@ -15,9 +15,9 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  //future: {
+  //  v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  //}, // //
 
   // Set the production url of your site here
   url: 'https://inarhsec.github.io',
@@ -94,7 +94,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About Me',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
