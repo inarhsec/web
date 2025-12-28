@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>My Site Blog</title>
+        <title>Hassan Rhani Blog</title>
         <link>https://inarhsec.github.io/web/blog</link>
-        <description>My Site Blog</description>
+        <description>Hassan Rhani Blog</description>
         <lastBuildDate>Thu, 30 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -151,7 +151,7 @@ You can also read the full article at this <a href="https://link.springer.com/ar
 </ul>
 <p>A heartfelt thank you to AIRAH for recognizing my contribution to this field.</p>
 <div class="img-center"><div style="width:500px"><p><img decoding="async" loading="lazy" alt="certificate of the award" src="https://inarhsec.github.io/web/assets/images/airah_awards-36f4957cf86cc894ef48dcb85f0d5940.png" width="1378" height="630" class="img_ev3q"></p></div></div>
-<p>The Future Leader award recognises my research which aims to determine how the thermal environment impacts thermalcomfort, productivity, wellbeing, and health; and how to reduce the energy consumption of buildings.</p>
+<p>The Future Leader award recognises Services which aims to determine how the thermal environment impacts thermalcomfort, productivity, wellbeing, and health; and how to reduce the energy consumption of buildings.</p>
 <p>The Excellence in HVAC&amp;R Research reflects the impact that the tools I had the privilege to create and co-develop are having on the hvac field. This includes the <a href="https://inarhsec.github.io/web/docs/tools/cbe-comfort-tool">CBE Thermal Comfort Tool</a>, <a href="https://inarhsec.github.io/web/docs/tools/cbe-clima-tool">CBE Clima Tool</a>, <a href="https://inarhsec.github.io/web/docs/tools/pythermalcomfort">pythermalcomfort</a>, <a href="https://inarhsec.github.io/web/docs/tools/jsthermalcomfort">jsthermalcomfort</a>, Cozie, <a href="https://inarhsec.github.io/web/docs/tools/heatwatch">HeatWatch</a>, and SMA Extreme Heat Tool.</p>
 <div class="img-center"><div style="width:300px"><p><img decoding="async" loading="lazy" alt="certificate of the award&amp;quot;" src="https://inarhsec.github.io/web/assets/images/IMG_3874-930036fcf3ad590bc5ba4963a6a9303e.jpg" width="2975" height="3002" class="img_ev3q"></p></div></div>
 <p>The guidance and mentorship of my supervisors have been instrumental in this achievement.
