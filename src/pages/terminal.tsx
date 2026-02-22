@@ -2,7 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 
 export default function TerminalPage() {
   const [history, setHistory] = useState<string[]>([
-    "Booting Hassan Secure Terminal v1.0...",
+    "Booting Hassan Secure Terminal v2.0...",
+    "Initializing Security Module...",
     "Type 'help' to see available commands.",
   ]);
 
@@ -16,48 +17,129 @@ export default function TerminalPage() {
   const commands: Record<string, string | (() => string)> = {
     help: `
 Available Commands:
-whoami      - About me
-skills      - Technical skills
-projects    - Major work
-contact     - Contact info
+whoami      - Professional Summary
+experience  - Work History
+skills      - Technical Skills
+tools       - Security Tools
+certs       - Certifications
+education   - Education
+contact     - Contact Information
 clear       - Clear terminal
     `,
 
     whoami: `
 Hassan Rhani
-GRC Analyst & Cybersecurity Engineer
-Focused on ISO27001, RBI Compliance,
-Palo Alto, Fortinet & Security Architecture
+Security Engineer | GRC Analyst | Cracker
+
+Specializing in:
+• ISO 27001 Implementation
+• RBI / NPCI / PCI DSS / ISO / PIMS / DPDPA Compliance
+• Banking & Fintech Security
+• NGFW Architecture (Palo Alto & Fortinet)
+• VAPT & Red Teaming
+    `,
+
+    experience: `
+TechFlex Solutions Pvt Ltd (Aug 2024 - Present)
+Role: Security Engineer / Infosec Analyst (Finacus)
+
+• Managed ISO 27001, PCI-DSS, NPCI, RBI compliance
+• Resolved regulatory advisories for multiple banks
+• Supported 250+ Bank Audits (Zero Non-Conformities)
+• Implemented & Hardened Palo Alto & Fortinet NGFW
+• Conducted Data Center Migrations
+• Network & Web Application VAPT
+
+Netplace Technologies Pvt Ltd (May 2022 – June 2024)
+Role: Network Security Engineer
+
+• Cisco NX9300, 9000 Series, ISR C8300
+• Aruba 2920, Comware Core, Meraki Family
+• Implemented ISE 3.2 on Azure (802.1X, TACACS)
+• Ekahau Wireless Site Surveys & Heatmaps
     `,
 
     skills: `
-ISO27001:2022
-RBI IT Compliance
-Palo Alto Networks
-Fortinet Firewall
-SD-WAN Architecture
-SIEM (QRadar / SISA)
-Python Automation
+GRC & Compliance:
+ISO27001 | RBI | NPCI | NABARD | PCI-DSS | NIST | CIS
+
+Networking:
+Routing & Switching | DNAC | L2 Security | VPN
+SD-WAN (FatPipe) | NAC | NGFW
+
+Red Team:
+Recon | OSINT | Web VAPT | Exploitation
+Privilege Escalation | Persistence | AD Attacks
+
+Cloud:
+Azure | AWS | Meraki | Netskope
+
+Operating Systems:
+Windows | Linux | IOS-XE | NX-OS
     `,
 
-    projects: `
-• Palo Alto HA Implementation (HQ + NDR)
-• SD-WAN with FatPipe Integration
-• RBI Audit Closure & Compliance Mapping
-• SIEM DR Architecture Design
+    tools: `
+Web Security:
+Burp Suite Pro | SQLMap | Ffuf | Amass | Nikto
+Project Discovery | Hydra | Impacket | Netexec
+
+Network Security:
+Nmap | Wireshark | TCPDump
+Nessus | Metasploit
+
+Source Code Review:
+Fortify
+
+Wireless:
+Ekahau Kit | WLC | Access Points
+    `,
+
+    certs: `
+INE eJPT (Valid till May 2028)
+
+Palo Alto:
+Strata Associate
+Prisma Associate
+
+Fortinet:
+NSE 4 FortiGate 7.6
+Cybersecurity Associate
+
+Cisco:
+Cybersecurity Essentials
+CCNP
+CMNA
+Engineering Meraki Solutions
+
+HPE Aruba:
+Mobility Essentials
+Network Essentials
+
+Netskope Cloud Security Specialist
+Google Cybersecurity
+CTF: Mystiko 2024
+    `,
+
+    education: `
+Bachelor of Commerce (BCom)
+University of Mumbai (2019 – 2022)
+CGPI: 7.32
+
+Rizvi College of Arts Science & Commerce
     `,
 
     contact: `
-Email: hassan@example.com
+Phone: +91 8433663196
+Email: hassanrhani@zohomail.in
 GitHub: https://github.com/inarhsec
-LinkedIn: linkedin.com/in/hassan
+LinkedIn: https://linkedin.com/in/rhanihasan
     `,
 
     clear: () => "",
   };
 
   const handleCommand = (command: string) => {
-    const trimmed = command.trim();
+    const trimmed = command.trim().toLowerCase();
 
     if (trimmed === "clear") {
       setHistory([]);
@@ -147,7 +229,7 @@ const styles: Record<string, React.CSSProperties> = {
     flex: 1,
     padding: "20px",
     fontFamily: "Courier New, monospace",
-    fontSize: "16px",
+    fontSize: "15px",
     color: "#00ff88",
     overflowY: "auto",
   },
@@ -161,7 +243,7 @@ const styles: Record<string, React.CSSProperties> = {
     outline: "none",
     color: "#00ff88",
     fontFamily: "Courier New, monospace",
-    fontSize: "16px",
+    fontSize: "15px",
     flex: 1,
   },
 };
