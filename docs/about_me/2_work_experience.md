@@ -1,103 +1,92 @@
 ---
 sidebar_position: 2
-tags:
-  - work experience
-keywords: 
-  - The University of Sydney
-  - Berkeley Education Alliance for Research in Singapore
-  - University of Wollongong
-  - NIER ING
-  - ASHRAE
-  - SinBerBEST
-  - SBRC
-  - Daikin Australia
-  - Enviro Buildings Services
-  - IEA EBC
-  - Solar Decathlon Competition
-  - thermal comfort
+keywords:
+  - cybersecurity experience
+  - network security implementation
+  - VAPT
+  - GRC
+  - banking security
+  - fintech security
+  - SOC
+  - firewall management
 image: assets/img/website_screenshot.png
-description: This page summarises Federico Tartarini's work experience
+description: Work experience and hands-on exposure of Hassan Rhani in cybersecurity, network security, VAPT, and GRC.
 last_update:
-  author: Federico Tartarini
+  author: Hassan Rhani
 ---
 
 # Work Experience
 
-<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
+My work experience combines **hands-on technical implementation** with **security governance and compliance support**, primarily across **banking, fintech, healthcare, and enterprise environments**.
 
-## Senior Lecturer | USYD Horizon Fellow
-**School of Architecture Design and Planning, the University of Sydney**  
-_Sydney, AU_  
-_Jun 2024 - Present_
+I work closely with **network teams, application teams, and auditors** to ensure that security controls are not only implemented, but also **understandable, verifiable, and auditable**.
 
-- Beat the Heath - Advancing Our Understanding of Heat Stress and Developing Effective Sustainable Interventions to Reduce Health Risks in a Warming World.
-- Teaching - Thermal Comfort, Building Science, and Building Physics.
+---
 
-<div class="img-small" > ![ASHRAE](./img/ASHRAE_Logo.svg)</div>
+## Network Security & Implementation
 
-## ASHRAE 55 Committee Voting Member
-**ASHRAE**  
-_Atlanta, US_  
-_Nov 2020 - Present_
+I have hands-on exposure to:
 
-- Member of the SSPC 55 "Thermal Environmental Conditions for Human Occupancy" committee
-- Contributed to the development of the 2020 edition of the Standard.
-- Wrote 7 addenda, which have all been approved.
+- Firewall configuration, rule review, and policy hardening  
+- Network segmentation and secure zone design  
+- VPN (IPsec / SSL) connectivity and secure access  
+- Monitoring and troubleshooting security events  
+- Secure deployment support during production changes  
 
-<div class="img-small" > ![UOW](./img/wollongong.png)</div>
+My focus is always on **practical security** — controls that actually reduce risk without breaking business operations.
 
-## Honorary Fellow
-**University of Wollongong**  
-_Wollongong, AU_  
-_Jun 2019 - Present_
+---
 
-- Honorary fellow at the Sustainable Buildings Research Centre (SBRC), faculty of Engineering and Information Sciences.
+## Vulnerability Assessment & Security Testing (VAPT)
 
-<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
+I actively work and learn in the area of **security assessment**, including:
 
-## Senior Research Associate
-**Heat & Health Research Incubator at the University of Sydney**  
-_Sydney, AU_  
-_Oct 2022 - Jun 2024_
+- Infrastructure vulnerability scanning  
+- Application-level observation and validation  
+- Red team learning exercises and attack surface analysis  
+- Reviewing findings and mapping them to risk impact  
+- Supporting remediation and validation efforts  
 
-- Maintainer and developer of the [HeatWatch](https://heatwatch.sydney.edu.au/).
-- Maintainer and developer of the [SMA Extreme Heat Policy Tool](https://sma-heat-policy.sydney.edu.au/).
-- Main author of [jsthermalcomfort](https://www.npmjs.com/package/jsthermalcomfort) a package crafted to facilitate seamless and precise thermophysiological calculations in JavaScript.
+I focus on understanding **why** a vulnerability exists and **how** it can realistically be exploited — not just reporting tool output.
 
-<div class="img-small" > ![SinBerBEST](./img/sinberbestDark.png)</div>
+---
 
-## Postdoctoral Scholar
-**Berkeley Education Alliance for Research in Singapore (BEARS)**  
-_Singapore, SG_  
-_Jun 2019 - Oct 2022_
+## Governance, Risk & Compliance (GRC)
 
-- Maintainer and developer of the [CBE thermal comfort tool](../tools/cbe-comfort-tool.md) and the [CBE Clima Tool](../tools/cbe-clima-tool.md).
-- Main author of [pythermalcomfort](../tools/pythermalcomfort.md) a Python package for thermal comfort research.
-- Maintainer and developer of Cozie for iOS and Fitbit.
-- Conducted a longitudinal thermal comfort study which aimed to developed personalized thermal comfort models using wearable and IoT devices.
-- Collaborated in the construction and commissioning of the "Greenest building" in Singapore. A net a net zero energy building for the Singaporean Building and Construction Authority (BCA).
-- Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
-- Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
+A significant part of my work involves **GRC and regulatory alignment**, especially in regulated sectors.
 
-<div class="img-small" > ![SBRC](./img/sbrc.png)</div>
+I work with frameworks and guidelines such as:
+- ISO 27001
+- PCI-DSS
+- NPCI & RBI advisories
+- CIS Benchmarks
+- NIST controls
 
-## Associate Research Fellow
-**SBRC, University of Wollongong**  
-_Wollongong, AU_  
-_Jun 2017 - Jun 2019_
+My role includes:
+- Mapping technical controls to compliance requirements  
+- Assisting in audit evidence preparation  
+- Reviewing policies, procedures, and SOPs  
+- Ensuring security controls are implemented as per policy  
+- Helping teams understand audit expectations in simple terms  
 
-- Industrial research projects: Company: Daikin Australia. Developed smart controllers and IoT sensors for Daikin.
-- Advantages SME grant: Company: Enviro Buildings Services. Developed learning algorithms using Python and Matlab for self-commissioning of HVAC components and models for performance prediction.
-- International Energy Agency Energy in Buildings and Communities (IEA EBC) Annex 69: Represented the SBRC in the IEA EBC Annex 69 "Strategy and practice of adaptive thermal comfort in low energy buildings".
-- Data Scientist: Helping colleagues analysing data in several research project and assisted the SBRC in the development of research facilities in relation to data acquisition, storage and analysis.
-- Developer: Developed two Android applications, one written in Java and one using Xamarin Forms.
-- Teaching Assistant - HVAC systems: Delivered a number of tutorials and developed course material for the UOW Engineering subject ENG 442/918 "Sustainable Energy in Buildings".
-- Guest Lecturer - University of Sydney: Delivered a guest lecture on the Solar Decathlon Competition.
+---
 
-## Consultant
-**NIER ING, ITALY**  
-_Bologna, IT_  
-_Mar 2013 - Feb 2014_
+## Working Style
 
-- Conducted feasibility studies for private and public clients. Modelled building energy consumption using EnergyPlus.
+- Hands-on and detail-oriented  
+- Strong documentation mindset  
+- Collaborative with technical and non-technical teams  
+- Always learning, testing, and improving  
 
+> *Security is effective only when people understand it.*
+
+---
+
+## Continuous Growth
+
+I treat every project as a learning opportunity.  
+Alongside work, I continuously build labs, write notes, and experiment with security tooling to deepen my understanding of **real-world attack and defense scenarios**.
+
+This page will continue to evolve as my experience grows.
+
+---

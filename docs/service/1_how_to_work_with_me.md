@@ -15,7 +15,7 @@ last_update:
 
 [//]: # (source: https://almanac.io/docs/employee-user-guide-readme-template-wOCvnGFTG3sSWHFv4US6Z2tNl9QzWcCd)
 
-# About me - Federico Tartarini (Readme)
+# About me - Hassan Rhani (Readme)
 
 :::info
 

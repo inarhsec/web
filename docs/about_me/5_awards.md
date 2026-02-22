@@ -1,27 +1,86 @@
 ---
 sidebar_position: 5
-tags:
-  - awards
-keywords: 
-  - best paper award
-  - achievements
+keywords:
+  - cybersecurity certifications
+  - network security certification
+  - ethical hacking
+  - information security
+  - continuous learning
 image: assets/img/website_screenshot.png
-description: This page summarises the awards Federico Tartarini received
+description: Professional certifications and continuous learning journey of Hassan Rhani in cybersecurity and network security.
 last_update:
-  author: Federico Tartarini
+  author: Hassan Rhani
 ---
 
-# Prizes, Honors and Awards
+# Certifications
 
-- 2023: [Future Leader Award](/blog/2023/11/30/airah-awards) – AIRAH (Australian Institute of Refrigeration, Air Conditioning, and Heating)
-- 2023: [Excellence in HVAC&R Research](/blog/2023/11/30/airah-awards) – AIRAH (Australian Institute of Refrigeration, Air Conditioning, and Heating)
-- 2023: First price (Outstanding Video) - [2023 Postdoc Video Challenge](https://www.buildingsandcities.org/video-challenge/gallery-2023.html): "Addressing Grand Challenges" from Buildings & Cities
-- 2023: Horizon Fellowship from the University of Sydney
-- 2021: Outstanding Project Achievement Award - BEARS
-- 2019: Experienced Researcher Award – IAQVEC conference
-- 2018: Best Paper Award – Journal Building and Environment
-- 2017: Student of the Year Award – AIRAH (Australian Institute of Refrigeration, Air Conditioning, and Heating)
-- 2016: Best Presentation Award – 15th National Conference of Emerging Researchers in Ageing
-- 2014: Innovation in Ageing – 13th National Conference of Emerging Researchers in Ageing
-- 2014: PhD Scholarship from the University of Wollongong
-- 2011: Erasmus Scholarship
+Certifications play an important role in validating foundational knowledge and maintaining structured learning in cybersecurity.  
+I approach certifications as **learning milestones**, not endpoints.
+
+---
+
+## Current Certifications
+
+### 🛡️ eJPT – eLearnSecurity Junior Penetration Tester  
+**INE / eLearnSecurity**
+
+- Core penetration testing fundamentals  
+- Networking, Linux, and Windows basics  
+- Vulnerability discovery and exploitation  
+- Hands-on lab-based assessment  
+
+This certification helped me build a strong foundation in **offensive security thinking** and practical testing workflows.
+
+---
+
+## Ongoing & Planned Certifications
+
+I am actively preparing for and planning the following certifications to strengthen both **technical depth and enterprise security understanding**:
+
+- Network Security & Firewall Technologies  
+- Advanced VAPT & Red Team Methodologies  
+- Cloud Security Fundamentals  
+- SOC Operations & Incident Response  
+- GRC-focused certifications aligned with:
+  - ISO 27001
+  - PCI-DSS
+  - RBI / NPCI security frameworks
+  - CIS & NIST standards  
+
+---
+
+## Learning  Around Certifications
+
+- Certifications complement **hands-on experience**
+- Labs and real scenarios matter more than exam scores
+- Continuous learning is more valuable than collecting badges  
+
+I prioritize **understanding systems, threats, and controls**, rather than memorization.
+
+---
+
+## Practical Validation
+
+Beyond certifications, I validate my knowledge through:
+- Real-world security implementations  
+- Security audits and compliance mapping  
+- Network hardening and architecture reviews  
+- Red Team and assessment exercises  
+
+---
+
+## Continuous Improvement
+
+Cybersecurity evolves rapidly.  
+I regularly update my skills through:
+- Documentation and self-notes (GitBook)  
+- Labs and simulations  
+- Reading standards, advisories, and incident reports  
+
+> *Certifications open doors, but real security is built through practice.*
+
+---
+
+This section will be updated as new certifications are completed.
+
+---

@@ -1,34 +1,92 @@
 ---
 sidebar_position: 1
-keywords: 
-  - thermal comfort
-  - human thermal physiology
-  - heat stress
-  - heat strain
-  - HVAC
-  - web tool development
+keywords:
+  - cybersecurity
+  - network security
+  - VAPT
+  - GRC
+  - banking security
+  - fintech security
+  - ISO 27001
+  - PCI-DSS
+  - NPCI
+  - RBI
 image: assets/img/website_screenshot.png
-description: This page summarises Federico Tartarini's core skills
+description: Introduction to Hassan Rhani — a cybersecurity engineering learner focused on network security, VAPT, and GRC across regulated environments.
 last_update:
-  author: Federico Tartarini
+  author: Hassan Rhani
 ---
 
-# Intro
+# Introduction
 
-I am an Engineer by training. 
-My research focuses on determining and quantifying the effect that the environment has on thermal comfort, productivity, health, and well-being. 
-My main research areas include human thermal comfort, indoor environmental quality, heating ventilation and air conditioning systems, cognitive performance, thermophysiological modelling, and the development of non-intrusive methodologies to monitor IEQ parameters. 
-My research outcomes are mainly based on original research conducted both in the laboratory and in field studies. 
-The aim of my research is to develop occupant-centric solutions and tools to improve the performance of existing and new buildings.
+Hi, I’m **Hassan Rhani** 👋  
+A cybersecurity engineering learner with hands-on exposure to **network security, vulnerability assessment, and governance, risk, and compliance (GRC)** across **banking, fintech, healthcare, and enterprise environments**.
 
-I am the main author of several free and open-source tools: 
-* [pythermalcomfort](../tools/pythermalcomfort.md) — a Python package to calculate several thermal comfort indices, 
-* the [CBE Thermal Comfort Tool](../tools/cbe-comfort-tool.md) — an online tool for thermal comfort calculations and visualization, 
-* [CBE Clima Tool](../tools/cbe-clima-tool.md) — an online tool for climate data analysis and visualization
-* Cozie for [Apple](../tools/cozie) and Fitbit — smartwatch application for environmental quality satisfaction and physiological data collection.
-* [HeatWatch](../tools/heatwatch.md)
-* [Sports and Medicine Australia Extreme Heat tool](https://sma-heat-policy.sydney.edu.au/)
+This website is my **living knowledge base** — a place where I document:
+- What I learn
+- What I implement
+- What I break
+- What I secure
 
-I am a voting member of the ASHRAE 55 Standard committee.
+---
 
-I received my PhD in 2017 from the University of Wollongong during which I focused on determining the impact of Indoor Environmental Quality on perceptions of occupants (staff and residents) and agitated behaviours of residents at aged care facilities.
+## What I Focus On
+
+My primary areas of learning and implementation include:
+
+- **Network Security Design & Implementation**  
+  Firewalls, segmentation, secure connectivity, and architecture reviews.
+
+- **VAPT & Security Assessments**  
+  Vulnerability assessments, basic penetration testing, red team concepts, and security validation.
+
+- **GRC & Compliance**  
+  Mapping technical controls to frameworks such as:
+  - ISO 27001
+  - PCI-DSS
+  - NPCI & RBI guidelines
+  - CIS & NIST
+
+I focus on making controls **practical, auditable, and aligned with real business risks**.
+
+---
+
+## Learning by Doing
+
+I strongly believe in **learning through implementation**.  
+This includes:
+- Building secure lab environments
+- Documenting security findings
+- Creating repeatable checklists and notes
+- Helping others secure their systems — even for free — because teaching accelerates learning
+
+> *If you want to secure something and learn together, feel free to reach out.*
+
+---
+
+## What You’ll Find Here
+
+- 📘 **Notes & Documentation** (hosted on GitBook)
+- 🛡️ **Security Services & Learning Projects**
+- 🔍 **Assessments (VAPT / Red Team basics)**
+- 📋 **GRC mappings & audit-ready explanations**
+- 🧠 **Lessons learned from real environments**
+
+Blogs are published separately on **Medium**, while this site remains focused on **structured knowledge and implementation**.
+
+---
+
+## Growing Forward
+
+This platform will evolve over time.  
+Future plans include:
+- Open learning resources
+- Security tooling experiments
+- IoT & ESP32-based security projects
+- Practical guides for students and beginners
+
+I’m still learning — and that’s the point.
+
+---
+
+📫 **Let’s learn and secure together.**

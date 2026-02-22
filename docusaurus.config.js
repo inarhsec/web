@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Hassan Rhani',
+  tagline: 'Network | Red Team | GRC',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/inarhsec',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/inarhsec/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -74,7 +74,7 @@ const config = {
       }),
     ],
   ],
-
+  plugins: ["@cmfcmf/docusaurus-search-local"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -84,7 +84,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'inarhSec',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -95,12 +95,32 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'About Me',
+            
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+           {
+            href: 'https://medium.com/@rhanihasan',
+            position: 'left',
+            label: 'Blog(M)',
+            
+          },
+//          {to: '/blog', label: 'Blog(Medium)', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/inarhsec",
+            position: "right",
+            className: "header--github-link",
+            "aria-label": "GitHub repository",
+          },
+          {
+            href: "https://anirhsec.gitbook.io/home/",
+            position: "right",
+            className: "header--gitbook-link",
+            "aria-label": "Gitbook repository",
+          },
+          {
+            className: "navbar__youtube navbar__icon",
+            "aria-label": "YouTube channel",
+            position: "right",
+            href: "https://www.youtube.com/@inarhsec",
           },
         ],
       },
@@ -111,43 +131,48 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Gitbook',
+                href: 'https://www.instagram.com/hasanrehni/',
               },
+              // {
+              //  label: 'Tutorial',
+             //   to: '/docs/intro',
+             // },
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/hasanrehni/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Telegram',
+                href: 'https://t.me/HassanRhani',
               },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Medium',
+                href: 'https://medium.com/@rhanihasan',
               },
+              //{
+              //  label: 'Medium',
+             //   to: '/blog',
+             // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/inarhsec',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}  Hassan Rhani..`,
       },
       prism: {
         theme: prismThemes.github,

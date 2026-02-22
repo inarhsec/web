@@ -7,7 +7,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/).
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/FedericoTartarini/FedericoTartarini.github.io.git
+git clone https://github.com/inarhsec/FedericoTartarini.github.io.git
 cd FedericoTartarini.github.io
 yarn install
 ```

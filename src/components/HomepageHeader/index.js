@@ -119,21 +119,28 @@ export default function HomepageHeader() {
             <h1 className="hero__title">{siteConfig.title}</h1>
 
             <h2>
-              Senior Lecturer | Horizon Fellow | Engineer | YouTuber
+              Still living with logs, alerts, and coffee ☕
             </h2>
 
-                <h3>School of Architecture Design and Planning <br/> The University of Sydney</h3>
+                <h3>Cybersecurity Engineer <br/> Network Security | Infosec | GRC </h3>
 
               <p>
-                  I specialise in indoor environmental quality (IEQ), thermal comfort, human thermophysiology, and
-                  building performance research.
-                  My mission is to develop occupant-centric tools and solutions that improve thermal comfort, health,
-                  productivity, and overall well-being in built environments. <br/><br/>
-                  My research integrates experimental, computational, and field studies to examine how indoor
-                  environments influence human performance and health outcomes.
-                  I am passionate about bridging research
-                  and practice together, hence, I am the main author of several widely used <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"/docs/category/tools"}>open-source tools</Link>. <br/><br/>
-                  I am also a <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/c/FedericoTartarini"}>YouTuber</Link>, there I share my research and teaching experiences with a global audience.
+                  I enjoy learning about how to test computer systems to make sure they are secure, how computer networks work, and 
+                  how to keep servers safe. I have earned some certificates in these topics already, 
+                  but I am eager to expand my knowledge further in this domain.
+                   <br/><br/>
+
+                  I am learning and growing in cybersecurity engineering, network security design, and security implementation across banking, 
+                  fintech, healthcare, and enterprise environments.
+
+                  My learning journey includes hands-on experience with network security architecture and implementation, 
+                  Vulnerability Assessment & Penetration Testing (VAPT), and Governance, Risk, and Compliance (GRC) activities.
+
+                  I work extensively with information security governance and regulatory frameworks such as ISO/IEC 27001, 
+                  PCI-DSS, NPCI, RBI guidelines, CIS Controls, and NIST, focusing on ensuring that technical controls are properly implemented, 
+                  auditable, and aligned with business and regulatory requirements
+                   <br/><br/>
+                  Small <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/@inarhsec"}>  YouTuber</Link>, 
                 </p>
 
               <Grid
@@ -145,7 +152,7 @@ export default function HomepageHeader() {
               <Grid item>
                 <Link
                   className="button"
-                  to="https://github.com/FedericoTartarini"
+                  to="https://github.com/inarhsec"
                   style={{ padding: "1rem" }}
                 >
                   <GitHubIcon fontSize={"large"} />
@@ -155,7 +162,7 @@ export default function HomepageHeader() {
               <Grid item>
                 <Link
                   className="button"
-                  to="https://www.youtube.com/c/FedericoTartarini"
+                  to="https://www.youtube.com/@inarhsec"
                   style={{ padding: "1rem" }}
                 >
                   <YouTubeIcon fontSize={"large"} />
@@ -165,7 +172,7 @@ export default function HomepageHeader() {
               <Grid item>
                 <Link
                   className="button"
-                  to="https://www.linkedin.com/in/federico-tartarini-3991995b/"
+                  to="https://www.linkedin.com/in/hassan-rhani-767526210/"
                   style={{ padding: "1rem" }}
                 >
                   <LinkedInIcon fontSize={"large"} />
@@ -175,7 +182,7 @@ export default function HomepageHeader() {
               <Grid item>
                 <Link
                   className="button"
-                  to="https://scholar.google.com/citations?user=QcamSPwAAAAJ&hl=en"
+                  to="https://theresianboyz.in/"
                   style={{ padding: "1rem" }}
                 >
                   <SchoolIcon fontSize={"large"} />
