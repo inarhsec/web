@@ -84,6 +84,42 @@ html[data-theme='dark'] .header--github-link:before {
 
   background-color: currentColor;
 
+
+  /* Remove default GitHub icon */
+.header--github-terminal::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-color: currentColor;
+  position: relative;
+  top: 1px;
+}
+/* Terminal icon */
+.header--github-terminal::after {
+  content: ">_";
+  color: #00ff88;
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+
+/* Blinking animation */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Glow + alignment */
+.header--github-terminal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 0 6px #00ff88);
+}
+  
   /* Center fix */
   position: relative;
   top: 1px; /* 👈 fine-tune vertical alignment */
@@ -124,4 +160,29 @@ html[data-theme='dark'] .header--github-link:before {
   .youtube-video {
     height: 200px;
   }
+}
+
+/* Add terminal icon */
+.navbar__link.header--github-terminal::after {
+  content: ">_";
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  color: #00ff88;
+  animation: blink 1s infinite;
+}
+
+/* Blink animation */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Glow */
+.navbar__link.header--github-terminal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 0 6px #00ff88);
 }

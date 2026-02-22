@@ -103,7 +103,14 @@ const config = {
             label: 'Blog(M)',
             
           },
+
 //          {to: '/blog', label: 'Blog(Medium)', position: 'left'},
+          {
+            href: "https://inarhsec.github.io/web/terminal",
+            position: "right",
+            className: "header--github-terminal",
+            "aria-label": "GitHub repository",
+          },
           {
             href: "https://github.com/inarhsec",
             position: "right",
