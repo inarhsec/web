@@ -105,6 +105,7 @@ const config = {
           },
 
 //          {to: '/blog', label: 'Blog(Medium)', position: 'left'},
+
           {
             href: "https://inarhsec.github.io/web/terminal",
             position: "right",
